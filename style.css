@@ -45,3 +45,13 @@ body{
     width: 25%;
     margin-top: 10px;
 }
+.link-bottom{
+    text-decoration: none;
+    color: #757575;
+    font-size: 0.8rem;
+}
+
+.link-bottom:hover{
+    text-decoration: underline;
+    
+}

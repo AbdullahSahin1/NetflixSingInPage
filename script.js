@@ -9,6 +9,7 @@ const inputWrapperEmail = document.getElementById("input-wrapper-email")
 const inputWrapperPassword = document.getElementById("input-wrapper-password")
 const warningEmail = document.getElementById("warningEmail")
 const warningPassword = document.getElementById("warningPassword")
+const singin = document.queryselector(".signin-button")
 
 const inputOnBlur = (ev) =>{
     if(inputTouched.email){

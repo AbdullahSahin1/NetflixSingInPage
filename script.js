@@ -11,6 +11,10 @@ const warningEmail = document.getElementById("warningEmail")
 const warningPassword = document.getElementById("warningPassword")
 const singin = document.queryselector(".signin-button")
 
+singin.addEventListener("click",()=>{
+    window.open()
+})
+
 const inputOnBlur = (ev) =>{
     if(inputTouched.email){
         if(!validateEmail(inputEmail.value) && !validatePhone(inputEmail.value)){

@@ -12,7 +12,7 @@ const warningPassword = document.getElementById("warningPassword")
 const singin = document.queryselector(".signin-button")
 
 singin.addEventListener("click",()=>{
-    window.open()
+    window.open("file:///C:/Users/ozans/OneDrive/Masa%C3%BCst%C3%BC/Netflix_Clone-main/index.html")
 })
 
 const inputOnBlur = (ev) =>{
